@@ -11,6 +11,7 @@ namespace OOPS.Others
     //IList vs List
     //ToList()
     //ConcurrentBlockingCollection vs Parallel forEach
+    //getEnumerator
 
     class Collections
     {

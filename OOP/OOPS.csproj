@@ -10,4 +10,9 @@
     <ProjectReference Include="..\ExternalProject\ExternalProject.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="DesignPatterns\" />
+    <Folder Include="SolidPrinciples\" />
+  </ItemGroup>
+
 </Project>

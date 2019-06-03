@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OOPS.Others
 {
-    class UpvsDownCasting
+    class SealedClassvsSealedMethod
     {
     }
 }
