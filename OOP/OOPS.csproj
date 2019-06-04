@@ -7,12 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ExternalProject\ExternalProject.csproj" />
+    <Folder Include="DesignPatterns\" />
+    <Folder Include="SolidPrinciples\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DesignPatterns\" />
-    <Folder Include="SolidPrinciples\" />
+    <ProjectReference Include="..\ExternalProject\ExternalProject.csproj" />
   </ItemGroup>
 
 </Project>

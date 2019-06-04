@@ -693,11 +693,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kaushik\\Desktop\\Folders\\OOPS\\ExternalProject\\ExternalProject.csproj",
+      "projectUniqueName": "C:\\Users\\Kaushik\\Desktop\\CSharpBasics\\CSharp-Basics\\ExternalProject\\ExternalProject.csproj",
       "projectName": "ExternalProject",
-      "projectPath": "C:\\Users\\Kaushik\\Desktop\\Folders\\OOPS\\ExternalProject\\ExternalProject.csproj",
+      "projectPath": "C:\\Users\\Kaushik\\Desktop\\CSharpBasics\\CSharp-Basics\\ExternalProject\\ExternalProject.csproj",
       "packagesPath": "C:\\Users\\Kaushik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kaushik\\Desktop\\Folders\\OOPS\\ExternalProject\\obj\\",
+      "outputPath": "C:\\Users\\Kaushik\\Desktop\\CSharpBasics\\CSharp-Basics\\ExternalProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
