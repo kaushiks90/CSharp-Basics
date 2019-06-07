@@ -34,6 +34,8 @@ namespace OOPS.Others
                     names[i] = value;
                 }
             }
+
+            //Usage
             void Method1()
             {
                 IndexerClass Team = new IndexerClass();

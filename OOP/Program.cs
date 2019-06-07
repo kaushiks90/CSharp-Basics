@@ -1,43 +1,26 @@
 ﻿using System;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace OOPS
 {
-    internal struct IndexerStruct
-    {
 
-    }
+    //Define a delegate
+    //Define an event based on that delegate
+    //Raise the event
     internal class Program
     {
-        private static void Method1()
-        {
-            
-                int a = 1;
-                int b = 0;
-                int res = a / b;
-           
-        }
-        private static void Method2()
-        {
-            try
-            {
-                Method1();
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
-        }
+
+     
         public static void Main(string[] args)
         {
-
-            Method2();
+           
             Console.ReadLine();
         }
-
-
+     
 
     }
-
+ 
 }
 
 

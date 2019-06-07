@@ -19,7 +19,6 @@ C:\Users\Kaushik\Desktop\Folders\OOPS\ExternalProject\obj\Debug\netcoreapp2.2\Ex
 C:\Users\Kaushik\Desktop\CSharpBasics\CSharp-Basics\ExternalProject\bin\Debug\netcoreapp2.2\ExternalProject.deps.json
 C:\Users\Kaushik\Desktop\CSharpBasics\CSharp-Basics\ExternalProject\bin\Debug\netcoreapp2.2\ExternalProject.dll
 C:\Users\Kaushik\Desktop\CSharpBasics\CSharp-Basics\ExternalProject\bin\Debug\netcoreapp2.2\ExternalProject.pdb
-C:\Users\Kaushik\Desktop\CSharpBasics\CSharp-Basics\ExternalProject\obj\Debug\netcoreapp2.2\ExternalProject.csprojAssemblyReference.cache
 C:\Users\Kaushik\Desktop\CSharpBasics\CSharp-Basics\ExternalProject\obj\Debug\netcoreapp2.2\ExternalProject.csproj.CoreCompileInputs.cache
 C:\Users\Kaushik\Desktop\CSharpBasics\CSharp-Basics\ExternalProject\obj\Debug\netcoreapp2.2\ExternalProject.AssemblyInfoInputs.cache
 C:\Users\Kaushik\Desktop\CSharpBasics\CSharp-Basics\ExternalProject\obj\Debug\netcoreapp2.2\ExternalProject.AssemblyInfo.cs

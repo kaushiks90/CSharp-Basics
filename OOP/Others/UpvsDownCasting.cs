@@ -10,12 +10,14 @@ namespace OOPS.Others
     {
         void Method()
         {
+            //Upcasting
             Circle circle = new Circle();
             Shape shape = circle;
 
-            Circle anotherCircle = (Circle)shape;  //In run time shape is refering to circle so valid
+            //Downcasting
+            Circle anotherCircle = (Circle)shape;  //In run time shape is referring to circle so valid
 
-            //Invalid because in rum time its is nor refering to circle
+            //Invalid because in rum time its is nor referring to circle
             //Car car = (Car)shape;  Throws an invalid  exception to prevent use as keyword
             
         }

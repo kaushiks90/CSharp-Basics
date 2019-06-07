@@ -11,12 +11,22 @@ namespace OOPS.Others
     {
         void Method1()
         {
+            Animal obj = new Animal();
             string s = "Kaushik";
 
             if (typeof(String) == s.GetType())
             {
 
             }
+
+            if (typeof(Animal) == obj.GetType())
+            {
+
+            }
         }
+    }
+    class Animal
+    {
+
     }
 }
