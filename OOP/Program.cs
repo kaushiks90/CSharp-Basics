@@ -15,12 +15,15 @@ namespace OOPS
   
 }
 
-
+//c#6
+//c#7
+//constructors
 //Threads
 //Tpl
 //singleton vs static
 //shallow vs deep
 //reflection
+//Polly
 //polymorphism
 //out vs ref
 //coVar vs contra

@@ -1,10 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace OOPS._6._0
 {
-    class StringInterpolation
+    internal class StringInterpolation
     {
+        private void Method1()
+        {
+            Action<int> actiondelegate = (i) =>
+              {
+                  Console.WriteLine($"The value of i is {i}");
+              };
+        }
     }
 }

@@ -7,6 +7,7 @@ namespace OOPS.Others
     //Try,catch,finally inside try is possible
     //Try,catch,finally inside catch is possible
     //Try,catch,finally inside finally is possible
+    //Try finally is also possible
 
 
         //Throw ex will not have the  complete stacktrace details ,it will only have the recent error 
@@ -16,6 +17,17 @@ namespace OOPS.Others
         //Cant have two catch block with same exception 
     class Exceptions
     {
+        void Method()
+        {
+            try
+            {
+
+            }
+            finally
+            {
+
+            }
+        }
          void Method1()
         {
 

@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace OOPS.Others
+namespace OOPS._6._0
 {
-    class AutoMapper
+    public interface IRunnable
     {
+        void Run();
     }
 }

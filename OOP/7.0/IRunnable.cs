@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace OOPS._6._0
+namespace OOPS._7._0
 {
-    class NameOfExpression
+    public interface IRunnable
     {
+        void Run();
     }
 }
