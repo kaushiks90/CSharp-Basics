@@ -6,7 +6,10 @@ namespace OOPS.Others
 {
     //Abstract and virtual methods can also be overridden
     //Return type overloading is impossible
-   
+
+    //Dynamic Polymorphism is also called as RunTime PolyMorphism (Late Binding,Method OverRiding)
+    //Static PolyMorphism is also called as CompileTime PolyMorphism (Early binding ,Method overloading)
+
     class OverridingvsOverloading
     {
         public void overload()

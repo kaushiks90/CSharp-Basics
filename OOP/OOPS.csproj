@@ -7,8 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DesignPatterns\" />
-    <Folder Include="SolidPrinciples\" />
+    <Compile Remove="DesignPatterns\**" />
+    <Compile Remove="SolidPrinciples\**" />
+    <EmbeddedResource Remove="DesignPatterns\**" />
+    <EmbeddedResource Remove="SolidPrinciples\**" />
+    <None Remove="DesignPatterns\**" />
+    <None Remove="SolidPrinciples\**" />
   </ItemGroup>
 
   <ItemGroup>
