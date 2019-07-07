@@ -15,7 +15,7 @@ namespace OOPS.Others
     {
 
     }
-    class MyGenericClass2<T, U> where T : IMyInterface where U : new() 
+    class MyGenericClass2<T, U> where T : IMyInterface where U : Employee
     {
 
     }
@@ -25,6 +25,11 @@ namespace OOPS.Others
     }
 
     interface IMyInterface
+    {
+
+    }
+
+    class Employee
     {
 
     }

@@ -693,11 +693,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kaushik\\Desktop\\CSharpBasics\\CSharp-Basics\\ExternalProject\\ExternalProject.csproj",
+      "projectUniqueName": "C:\\Users\\Kaushik\\Desktop\\C#\\CSharp-Basics\\ExternalProject\\ExternalProject.csproj",
       "projectName": "ExternalProject",
-      "projectPath": "C:\\Users\\Kaushik\\Desktop\\CSharpBasics\\CSharp-Basics\\ExternalProject\\ExternalProject.csproj",
+      "projectPath": "C:\\Users\\Kaushik\\Desktop\\C#\\CSharp-Basics\\ExternalProject\\ExternalProject.csproj",
       "packagesPath": "C:\\Users\\Kaushik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kaushik\\Desktop\\CSharpBasics\\CSharp-Basics\\ExternalProject\\obj\\",
+      "outputPath": "C:\\Users\\Kaushik\\Desktop\\C#\\CSharp-Basics\\ExternalProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -712,7 +712,7 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {},
-        "https://transfermate.pkgs.visualstudio.com/_packaging/Test_TM_Ad/nuget/v3/index.json": {}
+        "https://pkgs.dev.azure.com/kaushiksaz90/_packaging/TestNugetArtifacts/nuget/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.2": {

@@ -1,9 +1,9 @@
 ﻿namespace OOPS.Others
 {
 
-    //Params with 1D array
-    //Params with 2d arrays
-    //params with Array of Arrays
+    //Params can be 1D array
+    //Params can be array of arrays 
+    //Params cannot be 2D or 3 d arrays
     internal class ParamsKeyword
     {
         private readonly int[] arr = new int[3]

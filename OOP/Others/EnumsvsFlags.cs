@@ -34,8 +34,8 @@ namespace OOPS.Others
 
 
             var str2 = (SuitsFlags.Spades | SuitsFlags.Diamonds).ToString();  // "Spades, Diamonds"
+            var str3 = (WeekDays.Monday | WeekDays.Thursday).ToString();
 
-      
         }
      
 

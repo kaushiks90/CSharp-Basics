@@ -16,15 +16,15 @@ namespace OOPS.Others
     }
 
 
-   internal struct Employee
+   internal struct Employee1
     {
         public int EmpId;
        
-        static Employee()
+        static Employee1()
         {
 
         }
-        public Employee(int empid)
+        public Employee1(int empid)
         {
             this.EmpId = empid;
         }
@@ -38,11 +38,15 @@ namespace OOPS.Others
     {
         partial void test();
     }
-    partial struct partialStruct
+    partial struct partialStruct: i1
     {
         partial void test()
         {
             Console.WriteLine("This is partial method");
         }
+    }
+    interface i1
+    {
+
     }
 }

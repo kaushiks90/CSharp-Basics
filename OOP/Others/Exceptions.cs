@@ -15,6 +15,8 @@ namespace OOPS.Others
 
 
         //Cant have two catch block with same exception 
+        //Can i write a throw inside finally block ? YES
+        //what happens if finally block throws an exception? 
     class Exceptions
     {
         void Method()

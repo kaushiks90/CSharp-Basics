@@ -18,6 +18,7 @@ namespace OOPS.Others
 
         //Static
         //Can be accessed outside class 
+        //should be global
     class ReadOnlyvsConst
     {
         static readonly int k;
@@ -32,8 +33,10 @@ namespace OOPS.Others
         public ReadOnlyvsConst()
         {
             j = 1;
+            j = 2;
             
         }
+       
         
     }
     class Test

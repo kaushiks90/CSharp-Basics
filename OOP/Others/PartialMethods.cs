@@ -5,6 +5,7 @@
 //After it is declared, its body can be defined in the same component or different component of the partial class/struct .
 //A partial method is implicitly private. It cannot have any other access modifier.
 //A partial method can only have void return type.
+//Partial method have only one declaration
 namespace OOPS.Others
 {
     internal class PartialMethods
