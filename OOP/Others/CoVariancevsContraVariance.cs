@@ -6,83 +6,40 @@ namespace OOPS.Others
 {
     class CoVariancevsContraVariance
     {
-        //Covariance
-        void  CoVariance()
+        void CoVariance()
         {
+            Fruit f=new Fruit();
+            Mango m=new Mango();
 
-            var myAnimals = new List<Giraffe>{
-                new Giraffe(),
-                new Giraffe()
-            };
-            LifeForm.PrintLifeForms(myAnimals);
-            Console.ReadLine();
+            Fruit ff = m;
+
+            IEnumerable<Fruit> fruits = new List<Fruit>();
+            IEnumerable<Mango> mangoes=new List<Mango>();
+
+            fruits = mangoes;
         }
 
-        void ContraVariance()
+        void Contravariance()
         {
-            var animalDelegate = ContraVarianceLifeForm.LifeForm;
-            var giraffeDelegate = ContraVarianceLifeForm.Giraffe;
-            giraffeDelegate = animalDelegate;
-            animalDelegate(new ContraVarianceLifeForm());
-            giraffeDelegate(new ContraVarianceGiraffe());
-           
-            Console.ReadLine();
+            Action<Fruit> FruitInfo = GetFruitInfo;
+            Action<Mango> MangoInfo = GetMangoInfo;
+
+            MangoInfo = FruitInfo;
         }
+
+        static void GetFruitInfo(Fruit fruit) { }
+
+        static void GetMangoInfo(Mango mango) { }
     }
-    //CoVariance
-    public abstract class LifeForm
-    {
-        //public static void PrintLifeForms(IList<LifeForm> lifeForms)
-        //{
-        //    foreach (var lifeForm in lifeForms)
-        //    {
-        //        Console.WriteLine(lifeForm.GetType().ToString());
-        //    }
-        //}
-
-        public static void PrintLifeForms(IEnumerable<LifeForm> lifeForms)
-        {
-            foreach (var lifeForm in lifeForms)
-            {
-                Console.WriteLine(lifeForm.GetType().ToString());
-            }
-        }
-    }
-    public class Giraffe : LifeForm
+   
+    class Fruit
     {
 
     }
-    public class Zebra : LifeForm
-    {
 
+    class Mango : Fruit { 
+    
     }
-    //Contravariance
-    public delegate void MyAction<in T>(T obj);
-    public class ContraVarianceLifeForm
-    {
-        public string Name { get; set; } = "LifeForm";
-        public static MyAction<ContraVarianceLifeForm> LifeForm = (input) =>
-        {
-            Console.WriteLine("Life Form Delegate -" + input.Name);
-        };
-        public static MyAction<ContraVarianceGiraffe> Giraffe = (input) =>
-        {
-            Console.WriteLine("Giraffe Form Delegate -" + input.Name);
-        };
-    }
-    public class ContraVarianceGiraffe : ContraVarianceLifeForm
-    {
-        public ContraVarianceGiraffe()
-        {
-            Name = "Giraffe";
-        }
-    }
-    public class ContraVarianceZebra : ContraVarianceLifeForm
-    {
-        public ContraVarianceZebra()
-        {
-            Name = "Zebra";
-        }
-    }
+
 
 }
