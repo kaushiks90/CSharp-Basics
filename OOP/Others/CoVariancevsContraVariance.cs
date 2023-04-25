@@ -27,6 +27,15 @@ namespace OOPS.Others
             MangoInfo = FruitInfo;
         }
 
+        void Invariance()
+        {
+            List<Fruit> fruits = new List<Fruit>();
+            List<Mango> mangoes = new List<Mango>();
+
+            //fruits = mangoes;
+            //mangoes = fruits;
+        }
+
         static void GetFruitInfo(Fruit fruit) { }
 
         static void GetMangoInfo(Mango mango) { }
